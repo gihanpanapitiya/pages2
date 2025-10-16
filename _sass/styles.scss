@@ -1,2 +1,18 @@
-// Import Core Clean Blog SCSS
-@import "../assets/vendor/startbootstrap-clean-blog/scss/styles.scss";
+// Import Bootstrap first
+@import "../assets/vendor/bootstrap/scss/bootstrap";
+
+// Import Clean Blog variables
+@import "../assets/vendor/startbootstrap-clean-blog/scss/variables";
+
+// Import Clean Blog global styles
+@import "../assets/vendor/startbootstrap-clean-blog/scss/global";
+
+// Import Clean Blog components
+@import "../assets/vendor/startbootstrap-clean-blog/scss/components/buttons";
+@import "../assets/vendor/startbootstrap-clean-blog/scss/components/navbar";
+
+// Import Clean Blog sections
+@import "../assets/vendor/startbootstrap-clean-blog/scss/sections/contact";
+@import "../assets/vendor/startbootstrap-clean-blog/scss/sections/footer";
+@import "../assets/vendor/startbootstrap-clean-blog/scss/sections/masthead";
+@import "../assets/vendor/startbootstrap-clean-blog/scss/sections/post";
